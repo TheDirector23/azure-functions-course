@@ -5,7 +5,7 @@ description: >-
   Services.
 template:
   name: bit-camp-learning-lab-test
-  repo: emotion-reader-template
+  repo: azure-functions-template
 before:
   - type: createIssue
     title: Prerequisite
