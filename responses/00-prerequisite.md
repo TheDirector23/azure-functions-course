@@ -49,4 +49,4 @@ Good job, hopefully your digital clock is fully working and your jQuery is linke
 
 If you have any other questions or need further assistance, feel free to reach out to your TAs!
 
-To continue, press the **close issue** bottom at the bottom of the page!
+To continue, comment your **Javascript Clock Github Repo** link and press the **close issue with comment** button at the bottom of the page!
