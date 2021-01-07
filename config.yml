@@ -45,6 +45,14 @@ steps:
         with: 1.4-feedback.md
   - title: 'Week 1: Livestream Feedback'
     description: Help us improve this course!
+    event: issues.closed
+    link: '{{ repoUrl }}/issues/1'
+    actions:
+      - type: respond
+        with: 1.5-blog.md
+        issue: 2
+  - title: 'Week 1: Livestream Blog'
+    description: The livestream in blog format.
     event: issue_comment.created
     link: '{{ repoUrl }}/issues/2'
     actions:
@@ -112,6 +120,13 @@ steps:
     event: issue_comment.created
     actions:
       - type: respond
+        with: 2.7-blog.md
+        issue: 3
+  - title: 'Week 2: Livestream Blog'
+    description: The livestream in blog format.
+    event: issues.closed
+    actions:
+      - type: respond
         with: 02-complete.md
         issue: 3
       - type: createIssue
@@ -144,6 +159,13 @@ steps:
   - title: 'Week 3: Livestream Feedback'
     description: Help us improve this course!
     event: issue_comment.created
+    actions:
+      - type: respond
+        with: 3.5-blog.md
+        issue: 4
+  - title: 'Week 3: Livestream Blog'
+    description: The livestream in blog format.
+    event: issues.closed
     actions:
       - type: respond
         with: 03-complete.md
