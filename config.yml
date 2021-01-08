@@ -14,7 +14,7 @@ steps:
   - title: 'Week 1: Downloading an IDE'
     description: Installing Visual Studio Code.
     event: issues.closed
-    link: '{{ repoUrl }}/issues/2'
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
         with: 00-response.md
